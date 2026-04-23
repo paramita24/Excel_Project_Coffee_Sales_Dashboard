@@ -103,7 +103,7 @@ The main fact table. Each row is a line item on an order.
 
 ## Screenshot of Dashboard
 
-
+![image_alt]()
 ---
 
 ## 📌 Notes
