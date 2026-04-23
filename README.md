@@ -85,19 +85,24 @@ The main fact table. Each row is a line item on an order.
 
 ## 🛠️ Techniques Used
 
-- **XLOOKUP / INDEX-MATCH** — populate customer and product details into the orders sheet from lookup tables
+- **INDEX-MATCH** — populate customer and product details into the orders sheet from lookup tables
 - **Pivot Tables** — TotalSales, SalesByCountry, and TopFiveCustomers summaries
-- **Slicers & Timelines** — interactive filters on the Dashboard for roast type, size, and loyalty card status
+- **Slicers & Timelines** — interactive filters on the Dashboard for roast types
 - **Data Formatting** — custom number formats, date handling, and conditional formatting
 
 ---
 
 ## 🚀 Getting Started
 
-1. Download `coffeeOrdersDataFinal.xlsx`
-2. Open in **Microsoft Excel 2016+** or **Excel 365** (recommended — slicers and timeline require Excel; some features may not render in LibreOffice/Google Sheets)
+1. Open `coffeeOrdersDataFinal.xlsx` in **Microsoft Excel 2016+** or **Excel 365** (recommended — slicers and timeline require Excel; some features may not render in LibreOffice/Google Sheets)
 3. Navigate to the **Dashboard** sheet for the interactive overview
-4. Use the slicers to filter by roast type, package size, and loyalty card status
+4. Use the timeline to filter sales data
+5. Use the slicers to filter by roast type
+
+---
+
+## Screenshot of Dashboard
+
 
 ---
 
@@ -106,3 +111,4 @@ The main fact table. Each row is a line item on an order.
 - The `orders` sheet is the single source of truth; all pivot sheets derive from it
 - Some customer email and phone fields contain nulls — these rows are retained in all analyses
 - Sales figures are in **USD**
+- Instead of **INDEX-MATCH** we can use **XLOOKUP** with the newer version of excel.
