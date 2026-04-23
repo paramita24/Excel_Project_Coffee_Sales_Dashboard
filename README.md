@@ -1,4 +1,4 @@
-# ☕ Coffee Orders Data Analysis
+# ☕ Coffee Sales Data Analysis
 
 A end-to-end Excel data project analysing coffee sales across three countries from 2019 to 2022. The workbook covers raw data ingestion, customer and product lookup, aggregation, and an interactive sales dashboard.
 
