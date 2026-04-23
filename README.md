@@ -103,7 +103,7 @@ The main fact table. Each row is a line item on an order.
 
 ## Screenshot of Dashboard
 
-![image_alt]()
+![image_alt](https://github.com/paramita24/Excel_Project_Coffee_Sales_Dashboard/blob/main/images/CoffeeSalesDashboard.PNG)
 ---
 
 ## 📌 Notes
